@@ -9,16 +9,13 @@ rssLimit = 10
 theme = "hugo-texify3"
 title = "TeXify3"
 
-[author]
-name = "Michael Neuper"
-email = "michael@michaelneuper.com"
-
 [taxonomies]
 tags = "tags"
 categories = "categories"
 
 [params]
 title="TeXify3"
+author = "Michael Neuper"
 description = "TeXify3 - A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging"
 footnote = """
 Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
