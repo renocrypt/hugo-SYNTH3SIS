@@ -53,11 +53,17 @@ const enableDarkMode = () => {
 
 const disableDarkMode = () => {
   document.body.classList.remove("darkmode");
-  localStorage.setItem("darkMode", null);
+  localStorage.setItem("darkMode", "disabled");
 };
+
+const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)");
 
 if (darkMode === "enabled") {
   enableDarkMode();
+} else if (darkMode === null && prefersDarkMode.matches) {
+  enableDarkMode();
+} else {
+  disableDarkMode();
 }
 
 darkModeToggle.forEach((toggle) => {
