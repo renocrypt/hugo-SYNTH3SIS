@@ -4,10 +4,12 @@ enableGitInfo = true
 enableRobotsTXT = true
 hasCJKLanguage = true
 languageCode = "en"
-paginate = 5
 rssLimit = 10
 theme = "hugo-texify3"
 title = "TeXify3"
+
+[pagination]
+pagerSize = 5
 
 [taxonomies]
 tags = "tags"
