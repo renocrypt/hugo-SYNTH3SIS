@@ -22,7 +22,7 @@ enableInlineShortcodes = true
 [commentEngine]
 code = """
 <script src="https://giscus.app/client.js"
-    data-repo="michaelneuper/hugo-texify3"
+    data-repo="michaelneuper/website"
     data-repo-id="R_kgDOIjPNaQ"
     data-category="General"
     data-category-id="DIC_kwDOIjPNac4CaklA"
