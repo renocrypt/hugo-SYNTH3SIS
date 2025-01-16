@@ -1,20 +1,22 @@
-name = "TeXify3"
+name = "SYN[THE]SIS//"
 license = "MIT"
-licenselink = "https://github.com/michaelneuper/hugo-texify3/blob/master/LICENSE"
-description = "A latex-style hugo theme with the gruvbox color scheme for personal blogging"
+licenselink = "https://raw.githubusercontent.com/renocrypt/hugo-SYNTH3SIS/refs/heads/master/LICENSE"
+description = "A latex-style hugo theme for STEM static contents"
 
-homepage = "https://github.com/michaelneuper/hugo-texify3"
+homepage = "https://github.com/renocrypt/hugo-SYNTH3SIS"
 
-demosite = "https://michaelneuper.github.io/hugo-texify3/"
+demosite = "{T.B.D.}"
 
 tags = ["blog", "clean", "latex", "light", "minimal", "responsive", "simple"]
 features = ["blog", "postcss", "comments", "google analytics"]
 
 [author]
-    name = "Michael Neuper"
-    homepage = "https://michaelneuper.com"
+    name = "Benji Appcubic RenoCrypt"
+    homepage = "https://appcubic.com"
 
 [original]
     author = "Pavel Sapezhka"
     repo = "https://github.com/weastur/hugo-texify2"
+    author = "Michael Neuper"
+    homepage = "https://michaelneuper.com"
     
