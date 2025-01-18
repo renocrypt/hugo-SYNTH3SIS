@@ -56,7 +56,9 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --themesDir "../.." \
+            --theme "hugo-SYNTH3SIS"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
